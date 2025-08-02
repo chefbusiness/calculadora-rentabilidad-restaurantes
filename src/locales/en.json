@@ -1,0 +1,395 @@
+{
+  "app": {
+    "title": "CalculadoraGastro",
+    "subtitle": "Profitability Analysis for Restaurants",
+    "poweredBy": "Powered by ChefBusiness.co"
+  },
+  "navigation": {
+    "step": "Step",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "finish": "Finish",
+    "restart": "Restart Calculator",
+    "reset": "Reset",
+    "stepCompleted": "Step completed",
+    "completeFields": "Complete required fields"
+  },
+  "business": {
+    "name": {
+      "label": "Business Name",
+      "placeholder": "Ex: The Good Taste Restaurant",
+      "helpText": "This name will appear in your downloadable report"
+    },
+    "type": {
+      "label": "Establishment Type",
+      "options": {
+        "restaurant": "Restaurant",
+        "bar": "Bar",
+        "cafe": "Café",
+        "pizzeria": "Pizzeria",
+        "burger": "Burger Joint",
+        "catering": "Catering",
+        "other": "Other"
+      }
+    }
+  },
+  "steps": {
+    "revenue": {
+      "title": "💰 Revenue",
+      "description": "Monthly sales",
+      "heading": "Monthly Restaurant Revenue",
+      "subheading": "Enter the total sales from your last complete month of operation",
+      "label": "Total Monthly Revenue",
+      "inputLabel": "Total Monthly Revenue",
+      "placeholder": "Ex: 25,000",
+      "helpText": "Include all sales: food, beverages, additional services, declared tips, etc.",
+      "whatToInclude": "What to include?",
+      "foodSales": "Food sales",
+      "beverageSales": "Beverage sales",
+      "cateringServices": "Catering services",
+      "delivery": "Delivery services",
+      "privateEvents": "Private events",
+      "importantTips": "Important Tips",
+      "tip1": "Use data from the most representative month",
+      "tip2": "Include all payment methods",
+      "tip3": "Don't forget declared tips",
+      "tip4": "Consider seasonality",
+      "examples": "Quick Examples",
+      "smallRestaurant": "Small Restaurant",
+      "mediumRestaurant": "Medium Restaurant",
+      "largeRestaurant": "Large Restaurant",
+      "tables": "tables",
+      "monthlyRevenue": "Monthly revenue",
+      "includeList": [
+        "• Food and beverage sales",
+        "• Catering services",
+        "• Declared tips",
+        "• Additional services"
+      ],
+      "currentValue": "💰 Monthly revenue:"
+    },
+    "cmv": {
+      "title": "🥘 COGS",
+      "description": "Cost of goods",
+      "heading": "Cost of Goods Sold (COGS)",
+      "subheading": "Enter the total cost of ingredients and beverages from last month",
+      "label": "Total Cost of Goods Sold",
+      "inputLabel": "Total Cost of Goods Sold",
+      "placeholder": "Ex: 7,500",
+      "helpText": "Only ingredients and beverages used to prepare the dishes sold.",
+      "monthlyRevenue": "Monthly revenue",
+      "ofYourRevenue": "of your revenue",
+      "excellentControl": "Excellent control",
+      "idealRange": "You're in the ideal range",
+      "slightlyHigh": "Slightly high",
+      "considerOptimizing": "Consider optimizing",
+      "veryHigh": "Very high",
+      "urgentReview": "Requires urgent review",
+      "whatToInclude": "What to include?",
+      "meats": "Meats and fish",
+      "vegetables": "Vegetables and fruits",
+      "dairy": "Dairy products",
+      "spices": "Spices and seasonings",
+      "beverages": "Beverages",
+      "oils": "Oils and fats",
+      "bakery": "Bakery products",
+      "whatNotToInclude": "What NOT to include?",
+      "salaries": "Staff salaries",
+      "rent": "Venue rent",
+      "utilities": "Utilities",
+      "cleaning": "Cleaning supplies",
+      "utensils": "Kitchen utensils",
+      "marketing": "Marketing expenses",
+      "insurance": "Insurance",
+      "industryBenchmark": "Industry Benchmark",
+      "ideal": "Ideal",
+      "acceptable": "Acceptable",
+      "needsAttention": "Needs Attention",
+      "tipsToReduce": "Tips to Reduce COGS",
+      "negotiateSuppliers": "Negotiate with suppliers",
+      "betterPrices": "Seek better prices",
+      "reduceWaste": "Reduce waste",
+      "controlPortions": "Control portions",
+      "optimizeMenu": "Optimize menu",
+      "focusProfitable": "Focus on profitable dishes",
+      "controlInventory": "Control inventory",
+      "avoidExcess": "Avoid excess stock",
+      "includeList": [
+        "• Fresh and dry ingredients",
+        "• Beverages (alcoholic and non-alcoholic)",
+        "• Condiments and spices",
+        "• Bakery products"
+      ],
+      "excludeList": [
+        "• Staff salaries",
+        "• Cleaning supplies",
+        "• Kitchen equipment",
+        "• Marketing expenses"
+      ],
+      "currentValue": "🥘 Cost of goods:",
+      "percentage": "of total revenue",
+      "benchmark": "Ideal: less than 30%"
+    },
+    "labor": {
+      "title": "👥 Labor",
+      "description": "Staff costs",
+      "heading": "Labor Costs",
+      "subheading": "Enter the total amount spent on staff last month",
+      "label": "Total Labor Costs",
+      "inputLabel": "Total Labor Costs",
+      "placeholder": "Ex: 12,000",
+      "helpText": "Include all staff-related expenses: salaries, benefits, and social charges.",
+      "monthlyRevenue": "Monthly revenue",
+      "ofYourRevenue": "of your revenue",
+      "controlledCosts": "Controlled costs",
+      "idealRange": "You're in the ideal range",
+      "elevatedCosts": "Elevated costs",
+      "considerOptimizing": "Consider optimizing",
+      "veryHighCosts": "Very high costs",
+      "urgentReview": "Requires urgent review",
+      "whatToInclude": "What to include?",
+      "baseSalaries": "Base salaries",
+      "socialBenefits": "Social benefits",
+      "socialSecurity": "Social security",
+      "vacations": "Vacations",
+      "bonuses": "Bonuses",
+      "uniforms": "Uniforms",
+      "training": "Training",
+      "staffTypes": "Staff Types",
+      "chefs": "Chefs",
+      "cooks": "Cooks",
+      "waiters": "Waiters",
+      "bartenders": "Bartenders",
+      "cleaning": "Cleaning",
+      "cashiers": "Cashiers",
+      "management": "Management",
+      "industryBenchmark": "Industry Benchmark",
+      "idealCosts": "Ideal costs",
+      "acceptable": "Acceptable",
+      "needsAttention": "Needs attention",
+      "quickCalculator": "Quick Calculator",
+      "approximateFormula": "Approximate formula",
+      "formulaText": "Revenue × 0.30 = Approximate labor cost",
+      "factorExplanation": "This factor varies by restaurant type and location",
+      "optimizationTips": "Optimization Tips",
+      "optimizeSchedules": "Optimize schedules",
+      "adjustShifts": "Adjust shifts to demand",
+      "trainStaff": "Train staff",
+      "efficientEmployees": "More efficient employees",
+      "evaluateStructure": "Evaluate structure",
+      "needAllPositions": "Do you need all positions?",
+      "considerTechnology": "Consider technology",
+      "automateProcesses": "Automate processes",
+      "measureProductivity": "Measure productivity",
+      "salesPerEmployee": "Sales per employee",
+      "includeList": [
+        "• Base salaries and wages",
+        "• Social benefits and charges",
+        "• Bonuses and incentives",
+        "• Uniforms and training"
+      ],
+      "tipsList": [
+        "• Analyze peak hours vs. off-peak hours",
+        "• Evaluate structure: Do you need all current positions?",
+        "• Consider technology: Automate repetitive processes",
+        "• Measure productivity: Sales per employee per hour"
+      ],
+      "currentValue": "👥 Labor costs:",
+      "percentage": "of total revenue",
+      "benchmark": "Ideal: less than 35%"
+    },
+    "operating": {
+      "title": "⚙️ Operating",
+      "description": "Operating expenses",
+      "heading": "Operating Costs",
+      "subheading": "Enter fixed and variable operating costs from last month",
+      "label": "Total Monthly Operating Expenses",
+      "placeholder": "Ex: 5,200",
+      "helpText": "Include rent, utilities, insurance and other fixed and variable expenses.",
+      "whatToInclude": "What to include?",
+      "fixedCosts": {
+        "label": "Total Fixed Costs",
+        "placeholder": "Ex: 3,500",
+        "helpText": "Expenses that don't change with sales"
+      },
+      "variableCosts": {
+        "label": "Total Variable Costs",
+        "placeholder": "Ex: 1,700",
+        "helpText": "Expenses that vary with sales level"
+      },
+      "summary": {
+        "fixedCosts": "Fixed Costs",
+        "variableCosts": "Variable Costs",
+        "totalOperating": "Total Operating"
+      },
+      "fixedList": [
+        "• Rent or mortgage of the premises",
+        "• Business insurance",
+        "• Licenses and permits",
+        "• Basic utilities (minimum rates)",
+        "• Software and technology",
+        "• Equipment depreciation"
+      ],
+      "variableList": [
+        "• Variable utilities (consumption)",
+        "• Marketing and advertising",
+        "• Maintenance and repairs",
+        "• Cleaning and hygiene supplies",
+        "• Delivery commissions",
+        "• Banking and financial expenses"
+      ],
+      "includeList": [
+        "• Venue rent",
+        "• Utilities (electricity, water, gas)",
+        "• Business insurance",
+        "• Licenses and permits",
+        "• Marketing and advertising",
+        "• Maintenance and repairs"
+      ],
+      "currentValue": "⚙️ Operating expenses:",
+      "percentage": "of total revenue",
+      "benchmark": "Typical: 15-25%"
+    },
+    "results": {
+      "title": "📊 Results",
+      "description": "Complete analysis",
+      "heading": "📊 Profitability Analysis",
+      "subheading": "Here's the complete diagnosis of your restaurant's financial health with personalized recommendations to improve profitability.",
+      "keyMetrics": "Key Metrics",
+      "grossProfit": "Gross Profit",
+      "netProfit": "Net Profit",
+      "netMargin": "Net Margin",
+      "breakeven": "Break-even Point",
+      "costBreakdown": "Cost Breakdown",
+      "cmvCosts": "Cost of Goods",
+      "laborCosts": "Labor Costs",
+      "operatingCosts": "Operating Costs",
+      "recommendations": "🎯 Personalized Recommendations",
+      "downloadReport": "📄 Download Complete Report",
+      "newCalculation": "New Calculation",
+      "footerNote": "Important Note",
+      "footerDisclaimer": "Results are estimates based on gastronomic industry standards. For a more detailed analysis, consult with a restaurant management expert",
+      "status": {
+        "excellent": "Excellent",
+        "good": "Good",
+        "warning": "Warning",
+        "critical": "Critical"
+      }
+    }
+  },
+  "footer": {
+    "consultation": {
+      "title": "Need personalized help?",
+      "description": "Get professional gastronomic consulting to optimize your restaurant's profitability",
+      "cta": "Request Online Consultation"
+    },
+    "services": {
+      "aichef": "AI for Kitchen",
+      "gastromaps": "Google Business Profile",
+      "gastroseo": "Gastronomic SEO",
+      "ingredients": "Ingredients Index"
+    },
+    "copyright": "© 2024 CalculadoraGastro. Developed to optimize restaurant profitability.",
+    "disclaimer": "Based on international gastronomic industry standards.",
+    "tip": "Tip",
+    "industryStandards": "Industry standards",
+    "idealCogs": "Ideal COGS",
+    "laborCosts": "Labor costs",
+    "healthyMargin": "Healthy margin"
+  },
+  "currency": {
+    "label": "Currency",
+    "select": "Select currency"
+  },
+  "language": {
+    "label": "Language",
+    "select": "Select language"
+  },
+  "seo": {
+    "title": "Free Restaurant Calculator - Analyze Your Restaurant's Profitability | ChefBusiness.co",
+    "description": "Professional free restaurant calculator. Analyze COGS, labor costs, operating expenses and profitability. Optimize your food business with accurate data.",
+    "keywords": "restaurant calculator, restaurant profitability, restaurant COGS, restaurant labor costs, food business financial analysis, restaurant cost calculator, restaurant profit margin, restaurant management, restaurant optimization, restaurant consulting"
+  },
+  "education": {
+    "title": "Key Concepts in Restaurant Management",
+    "subtitle": "Master the financial fundamentals every restaurant owner should know to maximize their business profitability.",
+    "revenue": {
+      "title": "Total Revenue",
+      "description": "Revenue represents all sales generated by your restaurant, including food, beverages, additional services, and declared tips. It's the foundation for calculating all other profitability indicators."
+    },
+    "cmv": {
+      "title": "Cost of Goods Sold (COGS)",
+      "description": "COGS includes only the cost of ingredients and beverages used to prepare sold dishes. An ideal COGS should be between 25-30% of total revenue to maintain a profitable operation."
+    },
+    "labor": {
+      "title": "Labor Costs",
+      "description": "Includes all staff-related expenses: salaries, social benefits, social security, bonuses, and training. Ideally should represent between 25-35% of total revenue."
+    },
+    "operating": {
+      "title": "Operating Expenses",
+      "description": "All expenses necessary to keep the restaurant running, divided into fixed costs (rent, insurance, licenses) and variable costs (marketing, maintenance, supplies). Typically represent 15-25% of revenue."
+    },
+    "profitability": {
+      "title": "Profitability Analysis",
+      "description": "Profitability is measured through net margin, which should be at least 5-10% for a healthy restaurant. This indicator allows you to evaluate the long-term viability of your food business."
+    },
+    "analysis": {
+      "title": "Data-Driven Decision Making",
+      "description": "Regular financial analysis allows you to identify improvement opportunities, optimize costs, adjust prices, and make strategic decisions that positively impact your restaurant's profitability."
+    },
+    "importance": {
+      "title": "Why is it Crucial to Know These Concepts?",
+      "description": "80% of restaurants fail within the first 5 years, mainly due to lack of financial control. Mastering these concepts allows you to make informed decisions, identify problems before they become critical, and build a sustainable and profitable food business long-term."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "We answer the most common questions about restaurant financial analysis",
+    "items": [
+      {
+        "question": "How often should I use this calculator?",
+        "answer": "We recommend using the calculator monthly to monitor your restaurant's financial health. It's also useful when implementing significant changes to menu, prices, or cost structure to evaluate their impact on profitability."
+      },
+      {
+        "question": "What should I do if my COGS is above 30%?",
+        "answer": "High COGS indicates you're spending too much on ingredients. Solutions: negotiate better prices with suppliers, reduce waste, control portions, optimize menu focusing on more profitable dishes, and review inventory to avoid excessive purchases."
+      },
+      {
+        "question": "How can I reduce labor costs without affecting quality?",
+        "answer": "Optimize schedules according to demand, train staff for greater efficiency, evaluate if you need all current positions, consider technology to automate repetitive processes, and measure productivity by calculating sales per employee per hour."
+      },
+      {
+        "question": "What net profit margin is healthy for a restaurant?",
+        "answer": "A healthy net margin for restaurants is between 5-10%. Margins below 3% indicate problems requiring immediate attention. Margins above 10% are excellent and suggest a very efficient operation."
+      },
+      {
+        "question": "Should I include tips in revenue?",
+        "answer": "Yes, you should include officially declared tips in revenue, as they form part of the business's total income. However, undeclared tips or those going directly to staff should not be included in this calculation."
+      },
+      {
+        "question": "How does seasonality affect these calculations?",
+        "answer": "Seasonality can significantly impact results. We recommend using data from the most representative month of your normal operation, or calculating an average of several months to get a more accurate view of your profitability."
+      },
+      {
+        "question": "What's the difference between fixed and variable costs?",
+        "answer": "Fixed costs don't change according to sales level (rent, insurance, licenses). Variable costs fluctuate with sales (marketing, delivery commissions, some supplies). Understanding this difference is key for financial planning."
+      },
+      {
+        "question": "Does this calculator work for all types of restaurants?",
+        "answer": "Yes, the calculator is designed to work with full-service restaurants, cafeterias, bars, food trucks, and catering services. Financial principles are universal, although ideal ranges may vary slightly depending on establishment type."
+      }
+    ],
+    "contact": {
+      "title": "Need Personalized Help?",
+      "description": "If you have specific questions about your restaurant or need detailed consulting, our experts are here to help you.",
+      "cta": "Request Personalized Consulting"
+    }
+  },
+  "donation": {
+    "text": "Buy me a coffee"
+  },
+  "whatsapp": {
+    "text": "Contact us"
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "app": {
+    "title": "CalculadoraGastro",
+    "subtitle": "Análisis de Rentabilidad para Restaurantes",
+    "poweredBy": "Powered by ChefBusiness.co"
+  },
+  "navigation": {
+    "step": "Paso",
+    "of": "de",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "restart": "Reiniciar Calculadora",
+    "reset": "Reiniciar",
+    "stepCompleted": "Paso completado",
+    "completeFields": "Completa los campos requeridos"
+  },
+  "business": {
+    "name": {
+      "label": "Nombre del Negocio",
+      "placeholder": "Ej: Restaurante El Buen Sabor",
+      "helpText": "Este nombre aparecerá en tu reporte descargable"
+    },
+    "type": {
+      "label": "Tipo de Establecimiento",
+      "options": {
+        "restaurant": "Restaurante",
+        "bar": "Bar",
+        "cafe": "Cafetería",
+        "pizzeria": "Pizzería",
+        "burger": "Hamburguesería",
+        "catering": "Catering",
+        "other": "Otro"
+      }
+    }
+  },
+  "steps": {
+    "revenue": {
+      "title": "💰 Ingresos",
+      "description": "Ventas mensuales",
+      "heading": "Ingresos Mensuales del Restaurante",
+      "subheading": "Ingresa las ventas totales del último mes completo de operación",
+      "label": "Total de Ingresos Mensuales",
+      "inputLabel": "Total de Ingresos Mensuales",
+      "placeholder": "Ej: 25,000",
+      "helpText": "Incluye todas las ventas: comida, bebidas, servicios adicionales, propinas declaradas, etc.",
+      "whatToInclude": "¿Qué incluir?",
+      "foodSales": "Ventas de comida",
+      "beverageSales": "Ventas de bebidas",
+      "cateringServices": "Servicios de catering",
+      "delivery": "Servicios de delivery",
+      "privateEvents": "Eventos privados",
+      "importantTips": "Consejos Importantes",
+      "tip1": "Usa datos del mes más representativo",
+      "tip2": "Incluye todas las formas de pago",
+      "tip3": "No olvides las propinas declaradas",
+      "tip4": "Considera la estacionalidad",
+      "examples": "Ejemplos Rápidos",
+      "smallRestaurant": "Restaurante Pequeño",
+      "mediumRestaurant": "Restaurante Mediano",
+      "largeRestaurant": "Restaurante Grande",
+      "tables": "mesas",
+      "monthlyRevenue": "Ingresos mensuales",
+      "includeList": [
+        "• Ventas de comida y bebidas",
+        "• Servicios de catering",
+        "• Propinas declaradas",
+        "• Servicios adicionales"
+      ],
+      "currentValue": "💰 Ingresos mensuales:"
+    },
+    "cmv": {
+      "title": "🥘 CMV",
+      "description": "Costo mercancía",
+      "heading": "Costo de Mercancía Vendida (CMV)",
+      "subheading": "Ingresa el costo total de ingredientes y bebidas del último mes",
+      "label": "Total de Costo de Mercancía Vendida",
+      "inputLabel": "Total de Costo de Mercancía Vendida",
+      "placeholder": "Ej: 7,500",
+      "helpText": "Solo ingredientes y bebidas utilizados para preparar los platos vendidos.",
+      "monthlyRevenue": "Ingresos mensuales",
+      "ofYourRevenue": "de tus ingresos",
+      "excellentControl": "Excelente control",
+      "idealRange": "Estás en el rango ideal",
+      "slightlyHigh": "Ligeramente alto",
+      "considerOptimizing": "Considera optimizar",
+      "veryHigh": "Muy alto",
+      "urgentReview": "Requiere revisión urgente",
+      "whatToInclude": "¿Qué incluir?",
+      "meats": "Carnes y pescados",
+      "vegetables": "Verduras y frutas",
+      "dairy": "Lácteos",
+      "spices": "Especias y condimentos",
+      "beverages": "Bebidas",
+      "oils": "Aceites y grasas",
+      "bakery": "Productos de panadería",
+      "whatNotToInclude": "¿Qué NO incluir?",
+      "salaries": "Salarios del personal",
+      "rent": "Alquiler del local",
+      "utilities": "Servicios públicos",
+      "cleaning": "Suministros de limpieza",
+      "utensils": "Utensilios de cocina",
+      "marketing": "Gastos de marketing",
+      "insurance": "Seguros",
+      "industryBenchmark": "Referencia de la Industria",
+      "ideal": "Ideal",
+      "acceptable": "Aceptable",
+      "needsAttention": "Necesita Atención",
+      "tipsToReduce": "Consejos para Reducir CMV",
+      "negotiateSuppliers": "Negocia con proveedores",
+      "betterPrices": "Busca mejores precios",
+      "reduceWaste": "Reduce desperdicios",
+      "controlPortions": "Controla las porciones",
+      "optimizeMenu": "Optimiza el menú",
+      "focusProfitable": "Enfócate en platos rentables",
+      "controlInventory": "Controla inventario",
+      "avoidExcess": "Evita excesos de stock",
+      "includeList": [
+        "• Ingredientes frescos y secos",
+        "• Bebidas (alcohólicas y no alcohólicas)",
+        "• Condimentos y especias",
+        "• Productos de panadería"
+      ],
+      "excludeList": [
+        "• Salarios del personal",
+        "• Suministros de limpieza",
+        "• Equipos de cocina",
+        "• Gastos de marketing"
+      ],
+      "currentValue": "🥘 Costo de mercancía:",
+      "percentage": "del total de ingresos",
+      "benchmark": "Ideal: menos del 30%"
+    },
+    "labor": {
+      "title": "👥 Personal",
+      "description": "Costos laborales",
+      "heading": "Costos de Personal",
+      "subheading": "Ingresa todos los costos relacionados con el personal del último mes",
+      "label": "Total de Costos de Personal Mensuales",
+      "inputLabel": "Total de Costos de Personal Mensuales",
+      "placeholder": "Ej: 8,750",
+      "helpText": "Incluye salarios, seguridad social, beneficios y todos los costos laborales.",
+      "monthlyRevenue": "Ingresos mensuales",
+      "ofYourRevenue": "de tus ingresos",
+      "controlledCosts": "Costos controlados",
+      "idealRange": "Estás en el rango ideal",
+      "elevatedCosts": "Costos elevados",
+      "considerOptimizing": "Considera optimizar",
+      "veryHighCosts": "Costos muy altos",
+      "urgentReview": "Requiere revisión urgente",
+      "whatToInclude": "¿Qué incluir?",
+      "baseSalaries": "Salarios base",
+      "socialBenefits": "Prestaciones sociales",
+      "socialSecurity": "Seguridad social",
+      "vacations": "Vacaciones",
+      "bonuses": "Bonificaciones",
+      "uniforms": "Uniformes",
+      "training": "Capacitación",
+      "staffTypes": "Tipos de Personal",
+      "chefs": "Chefs",
+      "cooks": "Cocineros",
+      "waiters": "Meseros",
+      "bartenders": "Bartenders",
+      "cleaning": "Personal de limpieza",
+      "cashiers": "Cajeros",
+      "management": "Gerencia",
+      "industryBenchmark": "Referencia de la Industria",
+      "idealCosts": "Costos Ideales",
+      "acceptable": "Aceptable",
+      "needsAttention": "Necesita Atención",
+      "quickCalculator": "Calculadora Rápida",
+      "approximateFormula": "Fórmula aproximada",
+      "formulaText": "(Número de empleados × Salario promedio) × 1.4",
+      "factorExplanation": "El factor 1.4 incluye prestaciones y cargas sociales",
+      "optimizationTips": "Consejos de Optimización",
+      "optimizeSchedules": "Optimiza horarios",
+      "adjustShifts": "Ajusta turnos según demanda",
+      "trainStaff": "Capacita personal",
+      "efficientEmployees": "Empleados más eficientes",
+      "evaluateStructure": "Evalúa estructura",
+      "needAllPositions": "¿Necesitas todos los puestos?",
+      "considerTechnology": "Considera tecnología",
+      "automateProcesses": "Automatiza procesos",
+      "measureProductivity": "Mide productividad",
+      "salesPerEmployee": "Ventas por empleado",
+      "laborCosts": "Costos de personal",
+      "includeList": [
+        "• Salarios base de todos los empleados",
+        "• Seguridad social y prestaciones",
+        "• Bonificaciones y comisiones",
+        "• Horas extras y festivos",
+        "• Uniformes y capacitación"
+      ],
+      "tipsList": [
+        "• Analiza las horas pico vs. horas valle",
+        "• Evalúa la estructura: ¿Necesitas todos los puestos actuales?",
+        "• Considera tecnología: Automatiza procesos repetitivos",
+        "• Mide productividad: Ventas por empleado por hora"
+      ],
+      "currentValue": "👥 Costos de personal:",
+      "percentage": "del total de ingresos",
+      "benchmark": "Ideal: menos del 35%"
+    },
+    "operating": {
+      "title": "⚙️ Operativos",
+      "description": "Gastos operativos",
+      "heading": "Gastos Operativos",
+      "subheading": "Ingresa todos los gastos operativos del mes pasado",
+      "label": "Total de Gastos Operativos Mensuales",
+      "placeholder": "Ej: 5,200",
+      "helpText": "Incluye alquiler, servicios, seguros y otros gastos fijos y variables.",
+      "whatToInclude": "¿Qué incluir?",
+      "fixedCosts": {
+        "label": "Costos Fijos Totales",
+        "placeholder": "Ej: 3,500",
+        "helpText": "Gastos que no cambian según las ventas"
+      },
+      "variableCosts": {
+        "label": "Costos Variables Totales",
+        "placeholder": "Ej: 1,700",
+        "helpText": "Gastos que varían según el nivel de ventas"
+      },
+      "summary": {
+        "fixedCosts": "Costos Fijos",
+        "variableCosts": "Costos Variables",
+        "totalOperating": "Total Operativo"
+      },
+      "fixedList": [
+        "• Alquiler o hipoteca del local",
+        "• Seguros (local, equipos, responsabilidad)",
+        "• Licencias y permisos",
+        "• Servicios básicos (luz, agua, gas, internet)",
+        "• Depreciación de equipos"
+      ],
+      "variableList": [
+        "• Marketing y publicidad",
+        "• Suministros de limpieza",
+        "• Reparaciones y mantenimiento",
+        "• Comisiones de plataformas de delivery",
+        "• Gastos bancarios y financieros"
+      ],
+      "includeList": [
+        "• Alquiler del local",
+        "• Servicios públicos (luz, agua, gas)",
+        "• Seguros del negocio",
+        "• Licencias y permisos",
+        "• Marketing y publicidad",
+        "• Mantenimiento y reparaciones"
+      ],
+      "currentValue": "⚙️ Gastos operativos:",
+      "percentage": "de ingresos totales",
+      "benchmark": "Típico: 15-25%"
+    },
+    "results": {
+      "title": "📊 Resultados",
+      "description": "Análisis completo",
+      "heading": "📊 Análisis de Rentabilidad",
+      "subheading": "Aquí tienes el diagnóstico completo de la salud financiera de tu restaurante con recomendaciones personalizadas para mejorar la rentabilidad.",
+      "keyMetrics": "Métricas Clave",
+      "grossProfit": "Beneficio Bruto",
+      "netProfit": "Beneficio Neto",
+      "netMargin": "Margen Neto",
+      "breakeven": "Punto de Equilibrio",
+      "costBreakdown": "Distribución de Costos",
+      "cmvCosts": "Costo Mercancía",
+      "laborCosts": "Costos Personal",
+      "operatingCosts": "Costos Operativos",
+      "recommendations": "🎯 Recomendaciones Personalizadas",
+      "downloadReport": "📄 Descargar Reporte Completo",
+      "newCalculation": "Nueva Calculación",
+      "footerNote": "Nota Importante",
+      "footerDisclaimer": "Los resultados son estimaciones basadas en estándares de la industria gastronómica. Para un análisis más detallado, consulta con un experto en gestión gastronómica",
+      "status": {
+        "excellent": "Excelente",
+        "good": "Bueno",
+        "warning": "Atención",
+        "critical": "Crítico"
+      }
+    }
+  },
+  "footer": {
+    "consultation": {
+      "title": "¿Necesitas ayuda personalizada?",
+      "description": "Obtén una consultoría gastronómica profesional para optimizar la rentabilidad de tu restaurante",
+      "cta": "Solicitar Consultoría Online"
+    },
+    "services": {
+      "aichef": "IA para Cocina",
+      "gastromaps": "Google Business Profile",
+      "gastroseo": "SEO Gastronómico",
+      "ingredients": "Índice de Ingredientes"
+    },
+    "copyright": "© 2024 CalculadoraGastro. Desarrollado para optimizar la rentabilidad de restaurantes.",
+    "disclaimer": "Basado en estándares de la industria gastronómica internacional.",
+    "tip": "Consejo",
+    "industryStandards": "Estándares de la industria",
+    "idealCogs": "CMV ideal",
+    "laborCosts": "Costos laborales",
+    "healthyMargin": "Margen saludable"
+  },
+  "currency": {
+    "label": "Moneda",
+    "select": "Seleccionar moneda"
+  },
+  "language": {
+    "label": "Idioma",
+    "select": "Seleccionar idioma"
+  },
+  "seo": {
+    "title": "Calculadora Gastronómica Gratis - Analiza la Rentabilidad de tu Restaurante | ChefBusiness.co",
+    "description": "Calculadora gastronómica profesional gratuita para restaurantes. Analiza CMV, costos laborales, gastos operativos y rentabilidad. Optimiza tu negocio gastronómico con datos precisos.",
+    "keywords": "calculadora gastronómica, rentabilidad restaurante, CMV restaurante, costos laborales restaurante, análisis financiero gastronómico, calculadora costos restaurante, margen beneficio restaurante, gestión gastronómica, optimización restaurante, consultoría gastronómica"
+  },
+  "education": {
+    "title": "Conceptos Clave de la Gestión Gastronómica",
+    "subtitle": "Domina los fundamentos financieros que todo propietario de restaurante debe conocer para maximizar la rentabilidad de su negocio.",
+    "revenue": {
+      "title": "Ingresos Totales",
+      "description": "Los ingresos representan todas las ventas generadas por tu restaurante, incluyendo comida, bebidas, servicios adicionales y propinas declaradas. Es la base para calcular todos los demás indicadores de rentabilidad."
+    },
+    "cmv": {
+      "title": "Costo de Mercancía Vendida (CMV)",
+      "description": "El CMV incluye únicamente el costo de ingredientes y bebidas utilizados para preparar los platos vendidos. Un CMV ideal debe estar entre 25-30% de los ingresos totales para mantener una operación rentable."
+    },
+    "labor": {
+      "title": "Costos Laborales",
+      "description": "Comprende todos los gastos relacionados con el personal: salarios, prestaciones sociales, seguridad social, bonificaciones y capacitación. Idealmente debe representar entre 25-35% de los ingresos totales."
+    },
+    "operating": {
+      "title": "Gastos Operativos",
+      "description": "Son todos los gastos necesarios para mantener el restaurante funcionando, divididos en costos fijos (alquiler, seguros, licencias) y variables (marketing, mantenimiento, suministros). Típicamente representan 15-25% de los ingresos."
+    },
+    "profitability": {
+      "title": "Análisis de Rentabilidad",
+      "description": "La rentabilidad se mide a través del margen neto, que debe ser al menos 5-10% para un restaurante saludable. Este indicador te permite evaluar la viabilidad a largo plazo de tu negocio gastronómico."
+    },
+    "analysis": {
+      "title": "Toma de Decisiones Basada en Datos",
+      "description": "El análisis financiero regular te permite identificar oportunidades de mejora, optimizar costos, ajustar precios y tomar decisiones estratégicas que impacten positivamente en la rentabilidad de tu restaurante."
+    },
+    "importance": {
+      "title": "¿Por qué es Crucial Conocer estos Conceptos?",
+      "description": "El 80% de los restaurantes fracasan en los primeros 5 años, principalmente por falta de control financiero. Dominar estos conceptos te permite tomar decisiones informadas, identificar problemas antes de que se vuelvan críticos, y construir un negocio gastronómico sostenible y rentable a largo plazo."
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Resolvemos las dudas más comunes sobre el análisis financiero de restaurantes",
+    "items": [
+      {
+        "question": "¿Con qué frecuencia debo usar esta calculadora?",
+        "answer": "Recomendamos usar la calculadora mensualmente para monitorear la salud financiera de tu restaurante. También es útil usarla cuando implementes cambios significativos en el menú, precios, o estructura de costos para evaluar su impacto en la rentabilidad."
+      },
+      {
+        "question": "¿Qué hago si mi CMV está por encima del 30%?",
+        "answer": "Un CMV alto indica que gastas demasiado en ingredientes. Soluciones: negocia mejores precios con proveedores, reduce el desperdicio, controla las porciones, optimiza el menú enfocándote en platos más rentables, y revisa tu inventario para evitar compras excesivas."
+      },
+      {
+        "question": "¿Cómo puedo reducir los costos laborales sin afectar la calidad?",
+        "answer": "Optimiza los horarios según la demanda, capacita al personal para mayor eficiencia, evalúa si necesitas todos los puestos actuales, considera tecnología para automatizar procesos repetitivos, y mide la productividad calculando las ventas por empleado por hora."
+      },
+      {
+        "question": "¿Qué margen de beneficio neto es saludable para un restaurante?",
+        "answer": "Un margen neto saludable para restaurantes está entre 5-10%. Márgenes menores al 3% indican problemas que requieren atención inmediata. Márgenes superiores al 10% son excelentes y sugieren una operación muy eficiente."
+      },
+      {
+        "question": "¿Debo incluir las propinas en los ingresos?",
+        "answer": "Sí, debes incluir las propinas declaradas oficialmente en los ingresos, ya que forman parte de los ingresos totales del negocio. Sin embargo, las propinas no declaradas o que van directamente al personal no deben incluirse en este cálculo."
+      },
+      {
+        "question": "¿Cómo afecta la estacionalidad a estos cálculos?",
+        "answer": "La estacionalidad puede impactar significativamente los resultados. Te recomendamos usar datos del mes más representativo de tu operación normal, o calcular un promedio de varios meses para obtener una visión más precisa de tu rentabilidad."
+      },
+      {
+        "question": "¿Qué diferencia hay entre costos fijos y variables?",
+        "answer": "Los costos fijos no cambian según el nivel de ventas (alquiler, seguros, licencias). Los costos variables fluctúan con las ventas (marketing, comisiones de delivery, algunos suministros). Entender esta diferencia es clave para la planificación financiera."
+      },
+      {
+        "question": "¿Esta calculadora funciona para todos los tipos de restaurantes?",
+        "answer": "Sí, la calculadora está diseñada para funcionar con restaurantes de servicio completo, cafeterías, bares, food trucks, y servicios de catering. Los principios financieros son universales, aunque los rangos ideales pueden variar ligeramente según el tipo de establecimiento."
+      }
+    ],
+    "contact": {
+      "title": "¿Necesitas Ayuda Personalizada?",
+      "description": "Si tienes dudas específicas sobre tu restaurante o necesitas una consultoría detallada, nuestros expertos están aquí para ayudarte.",
+      "cta": "Solicitar Consultoría Personalizada"
+    }
+  },
+  "donation": {
+    "text": "Cómprame un café"
+  },
+  "whatsapp": {
+    "text": "Contáctanos"
+  }
+}
